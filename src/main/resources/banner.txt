@@ -1,0 +1,16 @@
+WWWWWWWW                           WWWWWWWW                 iiii  BBBBBBBBBBBBBBBBB                    
+W::::::W                           W::::::W                i::::i B::::::::::::::::B                   
+W::::::W                           W::::::W                 iiii  B::::::BBBBBB:::::B                  
+W::::::W                           W::::::W                       BB:::::B     B:::::B                 
+ W:::::W           WWWWW           W:::::W eeeeeeeeeeee   iiiiiii   B::::B     B:::::B   ooooooooooo   
+  W:::::W         W:::::W         W:::::Wee::::::::::::ee i:::::i   B::::B     B:::::B oo:::::::::::oo 
+   W:::::W       W:::::::W       W:::::We::::::eeeee:::::eei::::i   B::::BBBBBB:::::B o:::::::::::::::o
+    W:::::W     W:::::::::W     W:::::We::::::e     e:::::ei::::i   B:::::::::::::BB  o:::::ooooo:::::o
+     W:::::W   W:::::W:::::W   W:::::W e:::::::eeeee::::::ei::::i   B::::BBBBBB:::::B o::::o     o::::o
+      W:::::W W:::::W W:::::W W:::::W  e:::::::::::::::::e i::::i   B::::B     B:::::Bo::::o     o::::o
+       W:::::W:::::W   W:::::W:::::W   e::::::eeeeeeeeeee  i::::i   B::::B     B:::::Bo::::o     o::::o
+        W:::::::::W     W:::::::::W    e:::::::e           i::::i   B::::B     B:::::Bo::::o     o::::o
+         W:::::::W       W:::::::W     e::::::::e         i::::::iBB:::::BBBBBB::::::Bo:::::ooooo:::::o
+          W:::::W         W:::::W       e::::::::eeeeeeee i::::::iB:::::::::::::::::B o:::::::::::::::o
+           W:::W           W:::W         ee:::::::::::::e i::::::iB::::::::::::::::B   oo:::::::::::oo 
+            WWW             WWW            eeeeeeeeeeeeee iiiiiiiiBBBBBBBBBBBBBBBBB      ooooooooooo

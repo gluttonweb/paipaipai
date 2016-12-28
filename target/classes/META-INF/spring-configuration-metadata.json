@@ -1,0 +1,25 @@
+{
+  "groups": [{
+    "name": "server",
+    "type": "com.paipaipai.config.AppConfig",
+    "sourceType": "com.paipaipai.config.AppConfig"
+  }],
+  "properties": [
+    {
+      "name": "server.address",
+      "type": "java.lang.String",
+      "sourceType": "com.paipaipai.config.AppConfig"
+    },
+    {
+      "name": "server.port",
+      "type": "java.lang.String",
+      "sourceType": "com.paipaipai.config.AppConfig"
+    },
+    {
+      "name": "server.session",
+      "type": "java.util.List<java.util.Map<java.lang.String,java.lang.String>>",
+      "sourceType": "com.paipaipai.config.AppConfig"
+    }
+  ],
+  "hints": []
+}
