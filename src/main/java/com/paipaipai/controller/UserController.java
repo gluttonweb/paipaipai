@@ -20,12 +20,6 @@ public class UserController {
     @Autowired
     UserMapper userMapper;
 
-    @RequestMapping("/view/{id}")
-    public Object view(@PathVariable("id") int id) throws  Exception{
-        User user = userService.getById(id);
-        return user;
-    }
-
     @RequestMapping("/delete/{id}")
     public Object delete(@PathVariable("id") int id){
         try {

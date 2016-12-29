@@ -7,5 +7,4 @@ import com.paipaipai.entity.User;
  */
 public interface UserService {
 
-    User getById(Integer id);
 }
