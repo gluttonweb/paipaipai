@@ -50,6 +50,9 @@
     mvc:
         view.prefix: /WEB-INF/jsp/
         view.suffix: .jsp
+    profiles:
+        active: dev
   mybatis:
     mapperLocations: classpath:mapper/*.xml
     typeAliasesPackage: com.paipaipai.entity
+  debug: true
