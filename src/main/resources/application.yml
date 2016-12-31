@@ -55,3 +55,4 @@
   mybatis:
     mapperLocations: classpath:mapper/*.xml
     typeAliasesPackage: com.paipaipai.entity
+  debug: true
