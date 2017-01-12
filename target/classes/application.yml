@@ -57,17 +57,6 @@
     typeAliasesPackage: com.paipaipai.entity
   debug: false
 
-#   # redis数据库连接配置(covert)
-#    redis:
-#      url: "redis://:name@host:6379/2"
-#      # 最大实例数
-#      maxTotal: 100
-#      # 最大空闲实例数
-#      maxIdle: 10
-#      # (创建实例时)最大等待时间
-#      maxWaitMillis: 10000
-#      # (创建实例时)是否验证
-#      testOnBorrow: true
   jedis :
     pool :
       host : 127.0.0.1
