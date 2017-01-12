@@ -2,7 +2,7 @@
   server:
       port: 9090
 #      contextPath: /weibo
-      address: 192.168.1.106
+      address: 192.168.62.75
       session-timeout: 30
 #      tomcat.max-threads: 0
 #      tomcat.uri-encoding: UTF-8
@@ -55,4 +55,13 @@
   mybatis:
     mapperLocations: classpath:mapper/*.xml
     typeAliasesPackage: com.paipaipai.entity
-  debug: true
+  debug: false
+
+  jedis :
+    pool :
+      host : 127.0.0.1
+      port : 6379
+      config :
+        maxTotal: 100
+        maxIdle: 10
+        maxWaitMillis : 100000
