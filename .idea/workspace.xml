@@ -900,7 +900,7 @@
       <workItem from="1484067996112" duration="3170000" />
       <workItem from="1484149245460" duration="4980000" />
       <workItem from="1484224763112" duration="1288000" />
-      <workItem from="1484233017313" duration="757000" />
+      <workItem from="1484233017313" duration="892000" />
     </task>
     <task id="LOCAL-00001" summary="测试提交更新代码">
       <created>1483025256640</created>
@@ -937,11 +937,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484233601982</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="添加redis配置及相关公共服务">
+      <created>1484233780821</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1484233780821</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138905000" />
+    <option name="totallyTimeSpent" value="139040000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1364,8 +1371,8 @@
         <state relative-caret-position="171">
           <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
           <folding>
-            <element signature="e#3081#3085#0" expanded="true" />
-            <element signature="e#3152#3156#0" expanded="true" />
+            <element signature="e#4497#4501#0" expanded="true" />
+            <element signature="e#4568#4572#0" expanded="true" />
           </folding>
         </state>
       </provider>
