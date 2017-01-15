@@ -2,19 +2,13 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/paipaipai/controller/UserController.java" />
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/paipaipai/common/RedisClient.java" line="120" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/paipaipai/common/RedisClient.java" line="119" />
     <bookmark url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.7.2.RELEASE/spring-data-redis-1.7.2.RELEASE.jar!/org/springframework/data/redis/core/RedisCallback.class" line="11" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="365b4fc9-2275-4dea-8379-b51bc82829fa" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/paipaipai/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/paipaipai/controller/UserController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/paipaipai/common/RedisClient.java" afterPath="$PROJECT_DIR$/src/main/java/com/paipaipai/common/RedisClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/paipaipai/common/SerializationUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/paipaipai/common/SerializationUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/paipaipai/config/RedisConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/paipaipai/config/RedisConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/paipaipai/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/paipaipai/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/paipaipai/entity/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/paipaipai/entity/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/paipaipai/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/paipaipai/service/impl/UserServiceImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/paipaipai/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
-              <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+              <caret line="40" column="37" lean-forward="false" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -65,9 +59,9 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#2893#3230#0" expanded="true" />
                 <element signature="e#3229#3230#0" expanded="true" />
-                <element signature="e#3878#4520#0" expanded="true" />
-                <element signature="e#4284#4314#1" expanded="true" />
-                <element signature="e#4519#4520#0" expanded="true" />
+                <element signature="e#3877#4519#0" expanded="true" />
+                <element signature="e#4283#4313#1" expanded="true" />
+                <element signature="e#4518#4519#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -838,7 +832,7 @@
       <workItem from="1484319220635" duration="5226000" />
       <workItem from="1484330866234" duration="4000" />
       <workItem from="1484395144957" duration="16488000" />
-      <workItem from="1484485071912" duration="7932000" />
+      <workItem from="1484485071912" duration="8206000" />
     </task>
     <task id="LOCAL-00001" summary="测试提交更新代码">
       <created>1483025256640</created>
@@ -896,11 +890,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484236010756</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="实现redisClient公共服务类">
+      <created>1484494109358</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1484494109358</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173219000" />
+    <option name="totallyTimeSpent" value="173493000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -971,7 +972,8 @@
     <MESSAGE value="添加开发环境和生产环境配置" />
     <MESSAGE value="添加redis配置及相关公共服务" />
     <MESSAGE value="删除重复redis配置文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除重复redis配置文件" />
+    <MESSAGE value="实现redisClient公共服务类" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现redisClient公共服务类" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1345,7 +1347,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/paipaipai/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+          <caret line="40" column="37" lean-forward="false" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -1358,9 +1360,9 @@
             <element signature="imports" expanded="true" />
             <element signature="e#2893#3230#0" expanded="true" />
             <element signature="e#3229#3230#0" expanded="true" />
-            <element signature="e#3878#4520#0" expanded="true" />
-            <element signature="e#4284#4314#1" expanded="true" />
-            <element signature="e#4519#4520#0" expanded="true" />
+            <element signature="e#3877#4519#0" expanded="true" />
+            <element signature="e#4283#4313#1" expanded="true" />
+            <element signature="e#4518#4519#0" expanded="true" />
           </folding>
         </state>
       </provider>
