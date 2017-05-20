@@ -16,7 +16,7 @@ public class SerializationUtil {
      * @param object
      * @return
      */
-    public static byte[] serialize(Object object) {
+    public static byte[] serialize(final Object object) {
         ObjectOutputStream oos = null;
         ByteArrayOutputStream baos = null;
         try {

@@ -1,26 +1,13 @@
 package com.paipaipai.config;
 
-import com.fasterxml.jackson.annotation.JsonAutoDetect;
-import com.fasterxml.jackson.annotation.PropertyAccessor;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.cache.CacheManager;
 import org.springframework.cache.annotation.CachingConfigurerSupport;
-import org.springframework.cache.annotation.EnableCaching;
-import org.springframework.cache.interceptor.KeyGenerator;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.data.redis.cache.RedisCacheManager;
-import org.springframework.data.redis.connection.RedisConnectionFactory;
-import org.springframework.data.redis.core.RedisTemplate;
-import org.springframework.data.redis.core.StringRedisTemplate;
-import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
-
-import java.lang.reflect.Method;
 
 /**
  * Created by weibo on 2017/1/11.
@@ -62,13 +49,13 @@ public class RedisConfig extends CachingConfigurerSupport {
 //        };
 //
 //    }
-//
+
 //    @Bean
 //    public CacheManager cacheManager(
 //            @SuppressWarnings("rawtypes") RedisTemplate redisTemplate) {
 //        return new RedisCacheManager(redisTemplate);
 //    }
-//
+
 //    @Bean
 //    public RedisTemplate<String, String> redisTemplate(
 //            RedisConnectionFactory factory) {
@@ -81,5 +68,25 @@ public class RedisConfig extends CachingConfigurerSupport {
 //        template.setValueSerializer(jackson2JsonRedisSerializer);
 //        template.afterPropertiesSet();
 //        return template;
+//    }
+
+//    @Bean
+//    public RedisConnectionFactory redisConnectionFactory() {
+//        JedisConnectionFactory cf = new JedisConnectionFactory();
+//        cf.setHostName("127.0.0.1");
+//        cf.setPort(6379);
+//        cf.setPassword("superman");
+//        cf.afterPropertiesSet();
+//        return cf;
+//    }
+
+
+//    @Bean
+//    public RedisTemplate getRedisTemplate() {
+//        RedisConnectionFactory redisConnectionFactory = redisConnectionFactory();
+//        RedisTemplate<String, String> redisTemplate = this.redisTemplate(redisConnectionFactory);
+//        RedisTemplate rt = new RedisTemplate();
+//        rt.setConnectionFactory(redisConnectionFactory());
+//        return redisTemplate;
 //    }
 }
