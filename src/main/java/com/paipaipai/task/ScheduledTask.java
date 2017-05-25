@@ -1,5 +1,6 @@
 package com.paipaipai.task;
 
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 import java.text.SimpleDateFormat;
@@ -13,7 +14,7 @@ public class ScheduledTask {
 
     private static final SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
-    //    @Scheduled(fixedRate = 5000)
+    @Scheduled(fixedRate = 1000)
     public void reportCurrentTime() {
         System.out.println("现在时间是" + simpleDateFormat.format(new Date()));
     }
