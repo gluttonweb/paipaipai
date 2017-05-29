@@ -4,11 +4,13 @@ import com.paipaipai.common.RedisClient;
 import com.paipaipai.entity.User;
 import com.paipaipai.mapper.UserMapper;
 import com.paipaipai.service.UserService;
+import io.swagger.annotations.ApiImplicitParam;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-
 /**
  * Created by weibo on 2016/12/16.
  */
@@ -23,7 +25,9 @@ public class UserController {
     @Autowired
     RedisClient redisClient;
 
-    @RequestMapping("/delete/{id}")
+    @ApiOperation(value = "删除用户信息", notes = "根据id删除用户信息")
+    @ApiImplicitParam(name = "id", value = "用户ID", required = true, dataType = "int")
+    @RequestMapping(value = "/delete/{id}", method = RequestMethod.DELETE)
     public Object delete(@PathVariable("id") int id){
         try {
             int rs = this.userMapper.deleteByPrimaryKey(id);
@@ -33,7 +37,9 @@ public class UserController {
         }
     }
 
-    @RequestMapping("/getUserNameFromRedis/{id}")
+    @ApiOperation(value = "获取用户缓存信息", notes = "根据id获取用户缓存信息")
+    @ApiImplicitParam(name = "id", value = "用户ID", required = true, dataType = "int")
+    @RequestMapping(value = "/getUserNameFromRedis/{id}", method = RequestMethod.GET)
     public Object getUserNameFromRedis(@PathVariable("id") Integer id) {
         try {
             if (null == id || id <= 0) return "参数为空";
@@ -47,7 +53,9 @@ public class UserController {
         }
     }
 
-    @RequestMapping("/getUserById/{id}")
+    @ApiOperation(value = "获取用户信息", notes = "根据id获取用户信息")
+    @ApiImplicitParam(name = "id", value = "用户ID", required = true, dataType = "int")
+    @RequestMapping(value = "/getUserById/{id}", method = RequestMethod.GET)
     public Object getUserById(@PathVariable("id") Integer id) {
         User user = new User();
         try {
