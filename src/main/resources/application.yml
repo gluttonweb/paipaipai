@@ -48,7 +48,7 @@
         encoding.enable: true
         encoding.force: true
     mvc:
-        view.prefix: /WEB-INF/jsp/
+        view.prefix: /view/
         view.suffix: .jsp
     profiles:
         active: dev
